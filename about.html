@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Moodcast</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="container">
+    <nav id="header">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+    <h1 id="logo">
+      <img src="images/moodcast_logo2.svg">
+    </h1>
+    <h2 id="tagline">Your mood. New podcasts. Anywhere, anytime.</h2>
+
+    <div id="about-container">
+        <h3>
+          <span style="color:#666">About Moodcast</span>
+        </h3>
+        
+        <p> 
+          <span style="color:#292929">
+            Welcome to Moodcast,the webapp that provides you with new podcasts based on your mood - anywhere, anytime. 
+            Conceived in the summer of 2017, the idea came to its creator from the frustration of discovering 
+            <em>new</em> podcasts. Working through <em>General Assembly's Front End Web Development</em> course, 
+            it became clear that creating podcast playlists based on a user's mood would be possible through 
+            the coding methods and strategies discussed in this course.
+        </p>
+
+        <p>
+          Now, anyone can visit this page (once deployed online) to find podcasts best-suited to their current mood. 
+          This page will continue to be built overtime, with new moods and podcasts added for your listening pleasure.
+        </p>
+          </span>
+
+        <h3>
+          <span style="color:#666">About the Developer</span>
+        </h3>
+
+          <center><img src="images/IMG_1936.png"></center>
+          
+        <p>
+          <span style="color:#292929">
+            Diego Mas González is: a College of the Holy Cross almunus. 
+            He is an avid reader, tech follower, occasional photographer, and blogger. 
+            You can find him working in the digital marketing field in Manhattan, or scrolling his Twitter feed for updates on today's current events.
+            He is just now discovering his love of building projects through code and he does not expect this passion project to be his last!
+          </span>
+        </p>
+
+        <h3>
+          <span style="color:#666">About the Logo</span>
+        </h3>
+
+        <p> 
+          <span style="color:#292929">
+            The logo created for Moodcast originally came from two separate image creations from <a href=https://thenounproject.com>The Noun Project</a>.
+            Credit to both vector images go to Viktor Vorobyev and Miso Duzek.
+
+    <footer id="footer">
+      <center><img src="images/ga_logo.svg"><center>
+      <p>&copy; Diego Mas González</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="app.js"></script>
+
+  <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+</body>
+</html>

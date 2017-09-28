@@ -1,0 +1,137 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#container {
+  max-width: 960px;
+  margin: 25px auto 0;
+}
+
+#header {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+#header a {
+  color: #666;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#header a:hover, #header a.active {
+  color: #000;
+  border-bottom: 2px solid #9012FE;
+}
+
+#logo-container {
+  background: green;
+}
+
+#logo {
+  text-align: center;
+  font-weight: 200;
+  font-size: 42px;
+  margin: 0;
+}
+
+#logo span {
+  font-weight: bold;
+  color: #9012FE;
+}
+
+#tagline {
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  color: #666;
+}
+
+#audio-container {
+  max-width: 840px;
+  margin: 50px auto;
+  padding: 15px 0;
+}
+
+#picker {
+  text-align: center;
+}
+
+#picker h3 {
+  margin: 0 0 15px 0;
+}
+
+#picker a {
+  background: pink;
+  height: 105px;
+  width: 200px;
+  padding-top: 95px;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+#picker #picker-happy {
+  background: lightblue;
+  border: 1px solid lightskyblue;
+}
+
+#picker #picker-happy:hover {
+  background: #60C0E0;
+}
+
+#picker #picker-curious {
+  background: #FFD663;
+  border: 1px solid #FFCE47;
+
+}
+
+#picker #picker-curious:hover {
+  background: #F1A348;
+}
+
+#picker #picker-bored {
+  background: lightgray;
+  border: 1px solid #BABABA;
+}
+
+#picker #picker-bored:hover {
+  background: #AEA8A8;
+}
+
+#player {
+  height: 100px;
+  text-align: center;
+  display: none;
+  color: #666;
+}
+
+#player-artwork {
+  width: auto;
+  height: 50px;
+}
+
+#share {
+  height: 50px;
+  text-align: center;
+  display: none;
+}
+
+#share h5 {
+  margin: 0 0 15px 0;
+}
+
+#footer {
+  text-align: center;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+#about-container {
+  max-width: 600px;
+  margin: 0 auto;
+}

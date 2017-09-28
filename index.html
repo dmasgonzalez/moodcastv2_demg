@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="Moodcast">
+  <meta property="og:image" content="https://dmasgonzalez.github.io/moodcast_demg/">
+  <meta property="og:description" content="Moodcast: Your mood. New podcasts. Anywhere, anytime.">
+  <meta property="og:url" content="https://dmasgonzalez.github.io/moodcast_demg/">
+
+  <title>Moodcast</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="container">
+    <nav id="header">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+    <h1 id="logo"> 
+      <img src="images/moodcast_logo2.svg">
+      <!-- Make logo in Sketch and append "Moodcast name + make into png/svg" -->
+    </h1>
+    <h2 id="tagline">Your mood. New podcasts. Anywhere, anytime.</h2>
+    <div id="audio-container">
+      <div id="picker">
+        <h3>
+          <span style="color:#666">What's your mood?</span>
+        </h3>
+        <a href="#" id="picker-happy">Happy</a>
+        <a href="#" id="picker-curious">Curious</a>
+        <a href="#" id="picker-bored">Bored</a>
+      </div>
+      <div id="player">
+        <h4 id="player-now-listening">
+          <span style="color:#666">Now listening to...</span>
+        </h4>
+        <img id="player-artwork" src="" alt="">
+        <audio id="player-audio" controls="controls">
+          <source id="player-source" src="" type="audio/mp3">
+        </audio>
+      </div>
+      <div id="share">
+        <h5>
+            <span style="color:#666">Share what you're listening to...</span>
+        </h5>
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check out Moodcast" data-size="large">Tweet</a>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <center><img src="images/ga_logo.svg"><center>
+      <p>&copy; Diego Mas González</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="app.js"></script>
+
+  <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+</body>
+</html>
